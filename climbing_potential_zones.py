@@ -6,19 +6,7 @@ import os # Con esta librería manipularemos rutas (unión, normalización de ru
 import numpy as np # Se emplea para el cálculo con matrices
 import geopandas as gpd # Es la librería que se usa para abrir y procesar archivos vectoriales (.shp)
 import rasterio         # Es una de las librerías que se usan para procesar archivos raster.
-from osgeo import gdal  # Se emplea para leer y procesar datos vectoriales y raster.
-
-
-# ---
-# ### <center><u><b>Clase</b></u> <u><i>AnalisisRelieve</i></u></center>
-# 
-# En la clase '_AnalisisRelieve_' se incluyen todos los módulos para el cálculo de los distintos derivados del MDT, así como el resultado final del análisis de zonas potenciales de escalada. Estos módulos se ejecutarán posteriormente a través de la clase '_menu_'. 
-# 
-#   _Dado que no es posible separar una clase en celdas en Jupyter Notebook todas las explicaciones se harán directamente en el código a través de comentarios._
-# 
-# ---
-
-# In[19]:
+from osgeo import gdal  # Se emplea para leer y procesar datos vectoriales y raster
 
 
 class AnalisisRelieve:
